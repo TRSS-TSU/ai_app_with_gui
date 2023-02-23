@@ -1,0 +1,122 @@
+ *, *::before, *::after {
+	box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html{
+    color-scheme: dark light;
+    font-size: 62.5%;
+    @font-face {
+        font-family: "roboto";
+        src: url(fonts/Roboto-Regular.ttf);
+        font-weight: normal;
+        font-style: normal;
+      }
+    
+      font-family: roboto, serif;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: 'Courier New', Courier, monospace;
+    /* Center Body content */
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+h4, h5, h6{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+p{
+    font-size: 1.6rem;
+    font-weight: 400;    
+    word-wrap: break-word;
+}
+
+input{
+    display: block;
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+section{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+form{ 
+    width: 100%
+}
+
+.form-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-btns input{
+    padding: 2rem;
+    margin: 4rem;
+}
+
+#question{
+    width: 100%;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+
+.response{
+    min-height: 30vh;
+    max-height: 40vh;
+    overflow: auto;
+    padding: 2rem;
+    border: 1px solid grey;
+}
+
+.query{
+    display: flex;
+    min-height: 30vh;
+}

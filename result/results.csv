@@ -1,0 +1,85 @@
+question,prediction,model1_result,model2_result,model3_result
+what is a dog,no answer,challenge or nonce,"security vulnerabilities, and outdated cryptography",Single authentication
+what is a cat,a challenge or nonce,a challenge or nonce,challenge or nonce,Security vulnerabilities
+what is a cat?,no answer,challenge or nonce,Noninteractive authentication,one-way hash of the user's password
+what is a boat,no answer,challenge or nonce,response,Security vulnerabilities
+what is a boat?,no answer,wire,Noninteractive authentication,Single authentication
+what is a cat,a challenge or nonce,a challenge or nonce,challenge or nonce,Security vulnerabilities
+what is a cat,a challenge or nonce,a challenge or nonce,challenge or nonce,Security vulnerabilities
+what is a boat,no answer,challenge or nonce,response,Security vulnerabilities
+what is cat?,no answer,challenge or nonce,response,NTLM is a single authentication method
+what is cat?,no answer,challenge or nonce,response,NTLM is a single authentication method
+what is a boat?,no answer,wire,Noninteractive authentication,Single authentication
+exit?,no answer,discards the actual password,response,The domain controller
+exit?,no answer,discards the actual password,response,The domain controller
+what is a cat?,no answer,challenge or nonce,Noninteractive authentication,one-way hash of the user's password
+what is cat?,no answer,challenge or nonce,response,NTLM is a single authentication method
+what client compute?,a cryptographic hash of the password,a cryptographic hash of the password,a cryptographic hash of the password,a cryptographic hash of the password
+what is is client compute?,a cryptographic hash of the password,a cryptographic hash of the password,a cryptographic hash of the password,cryptographic hash of the password
+what is clint compute?,cryptographic hash of the password,cryptographic hash of the password,a cryptographic hash of the password,cryptographic hash of the password
+what is client cmpute?,no answer,cryptographic hash of the password and discards the actual password,a cryptographic hash of the password,where the user is requesting authentication
+what is a cat?,no answer,challenge or nonce,Noninteractive authentication,one-way hash of the user's password
+what is client compute?,a cryptographic hash of the password,a cryptographic hash of the password,a cryptographic hash of the password,a cryptographic hash of the password
+what is client compute?,a cryptographic hash of the password,a cryptographic hash of the password,a cryptographic hash of the password,a cryptographic hash of the password
+what is a boat?,no answer,wire,Noninteractive authentication,Single authentication
+what is a cat?,no answer,challenge or nonce,Noninteractive authentication,one-way hash of the user's password
+what is client compute?,a cryptographic hash of the password,a cryptographic hash of the password,a cryptographic hash of the password,a cryptographic hash of the password
+clear?,disadvantages,proves it has access to the secured NTLM credentials,disadvantages,disadvantages
+what is a cat?,no answer,challenge or nonce,Noninteractive authentication,one-way hash of the user's password
+What is a network?,Interactive NTLM authentication,Kerberos,Interactive NTLM authentication,Interactive NTLM authentication
+what is NTLM?,a single authentication method,a single authentication method,a single authentication method,a single authentication method
+what are the authentication methods?,Single authentication,Single authentication,single authentication,If they are identical
+How many networks are there?,two,two,two,two
+hello?,no answer,client,response,The domain controller
+what do you know?,no answer,cryptographic hash of the password and discards the actual password.,security vulnerabilities,Single authentication
+pickels?,no answer,challenge,"NTLM authentication including single authentication, security vulnerabilities, and outdated cryptography",The domain controller
+Tell me about DHCP.?,no answer,ards the actual password,client,The domain controller
+How do active directory servers run group policies?,domain controller,domain controller,domain controller,It does not support multifactor authentication
+what is a domain controller?,where information related to the user's password is kept,information related to the user's password is kept,where information related to the user's password is kept,where information related to the user's password is kept
+Where is information related to the user's password kept?,domain controller,domain controller,domain controller,Security Account Manager database
+What are the roles of a domain controller?,where information related to the user's password is kept,information related to the user's password is kept,where information related to the user's password is kept,where information related to the user's password is kept
+What is Kerberos?,protocol of choice,protocol of choice,Microsoft Kerberos security package,protocol of choice
+What is Kerberos?,protocol of choice,protocol of choice,Microsoft Kerberos security package,protocol of choice
+What is Kerberos?,protocol of choice,protocol of choice,Microsoft Kerberos security package,protocol of choice
+What else is a challenge called?,nonce,nonce,nonce,nonce
+What is a nonce?,a 8-byte random number,a 8-byte random number,8-byte random number,The server generates a 8-byte random number
+what stores private keys?,domain controller,domain controller,domain controller,Security Account Manager database
+what stores private keys?,SSHssh-agent,SSHssh-agent,SSHssh-agent,SSHssh-agent
+what is ssh?,no answer,Secure Shell,SSH client component that runs on the user's local systemsshd,the SSH client component that runs on
+what component runs on the user's system?,no answer,the client,ssh,domain controller
+what is scp?,no answer,Secure File Transfer Protocol,a file copy utility that runs on SSH,NTLM is a single authentication method
+what is SSH based on?,client-server architecture,client-server architecture,client-server architecture,a client-server architecture
+edit?,no answer,client,OpenSSH,"The server sends the user name, challenge sent to the client"
+what is AD?,Directory Federation Services,Directory Federation Services,Directory Federation Services,Federation Services
+what does web application proxy do?,provide access for the AD FS-related extranet scenario,provide access for the AD FS-related extranet scenario,providing extranet access to applications and services that are secured by AD FS,provide access for the AD FS-related extranet scenario
+what is active directory?,no answer,Directory Federation Services,Noninteractive authentication,multifactor authentication
+how many networks are there?,two,two,two,two
+how many networks are there?,two,two,two,two
+how many networks are there?,two,two,two,two
+how many networks are there?,two,two,two,two
+how many networks are there?,two,two,two,two
+how many networks are there?,two,two,two,two
+how many networks are there?,two,two,two,two
+how many networks are there?,two,two,two,two
+how many networks are there?,two,two,two,two
+how many networks are there?,two,two,two,two
+how many networks are there?,two,two,two,two
+how many networks are there?,two,two,two,two
+how many networks are there?,two,two,two,two
+how many networks are there?,two,two,two,two
+hi?,no answer,client,response,Web Application Proxy
+what is NTLM?,a single authentication method,a single authentication method,a single authentication method,a single authentication method
+what is scp?,no answer,Web Application Proxy,a file copy utility,NTLM is a single authentication method
+what is 2 + 3?,no answer,"a client, a server, and a domain controller",multifactor authentication,Noninteractive authentication
+What is Windows?,no answer,operating system,Windows Challenge/Response,Windows operating system
+how many networks are there?,two,two,two,two
+how can you test us?,no answer,perform a calculation that proves it has access to the secured NTLM credentials,calculation,Negotiate security package
+what is computers?,no answer,Windows operating system,remote systems,Windows operating system and on stand-alone systems
+what are users?,end users who want to access applications within an AD FS-secured enterprise,end users who want to access applications within an AD FS-secured enterprise,end users who want to access applications within an AD FS-secured enterprise,end users
+what are AD FS-secured enterprise?,no answer,secured identity federation and Web single sign-on (SSO) capabilities,"federation partner organizations, or in the cloud","in federation partner organizations, or in the cloud"
+what are authentication calculations?,proves it has access to the secured NTLM credentials,proves it has access to the secured NTLM credentials,proves it has access to the secured NTLM credentials,proves it has access to the secured NTLM credentials
+What is Roux?,no answer,Web Application Proxy,response,one-way hash of the user's password
+What is Roux?,a dog,a dog,a dog,a dog
+Who loves Roux?,Paige,Paige,Paige,Paige
+who is a dog?,Roux,Roux,Roux,Roux
+what is bedtime?,0900,0900,0900,0900
